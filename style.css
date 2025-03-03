@@ -87,7 +87,7 @@ body {
     max-width: 600px;
     width: 90%;
     position: relative;
-    height: 300px;
+    height: 150px;
     
 }
 .close-button{
@@ -100,4 +100,14 @@ body {
     border: none;
     background: transparent;
     
+}
+.modal-title{
+    margin: 0 0 20px 0;
+}
+.modal-subtitle{
+    margin: 0 0 20px 0;
+}
+.links-wraper{
+    display: flex;
+    justify-content: space-between;
 }

@@ -11,59 +11,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const projects = [
         {
             id: 1,
-            title: 'Проект 1',
-            shortDesc: 'Краткое описание проекта 1',
-            detailDesc: 'Подробное описание проекта 1, раскрывающее детали работы и использованные технологии',
-            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3vlT5dDAjGcfFMvv4WTu5P-go2UphNmvbQ&s',
+            title: 'clock',
+            shortDesc: 'актуальное время и дата',
+            detailDesc: 'сайт на html, css, js, который показывает актуальное время и дату в зовисимотси от региона пользователя',
+            imgUrl: "images/clock.jpg",
             githubUrl: 'https://github.com/Fgfgdgfhhfgf/clock',
             liveLink: 'https://clock-six-bay.vercel.app/'
         },
         {
             id: 2,
-            title: 'Проект 2',
-            shortDesc: 'Краткое описание проекта 2',
-            detailDesc: 'Подробное описание проекта 2, раскрывающее детали работы и использованные технологии',
-            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3vlT5dDAjGcfFMvv4WTu5P-go2UphNmvbQ&s',
+            title: 'ping-pong',
+            shortDesc: 'игра пинг-понг',
+            detailDesc: 'игра разработана на html, js. Для управления используем кнопки на клавиатуре играем против бота',
+            imgUrl: 'images/ping-pong.jpg',
             githubUrl: 'https://github.com/Fgfgdgfhhfgf/pind---pond',
             liveLink: 'https://ping-pong-cyan.vercel.app/'
         },
         {
             id: 3,
-            title: 'Проект 3',
-            shortDesc: 'Краткое описание проекта 3',
-            detailDesc: 'Подробное описание проекта 3, раскрывающее детали работы и использованные технологии',
-            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3vlT5dDAjGcfFMvv4WTu5P-go2UphNmvbQ&s',
+            title: 'Mesto',
+            shortDesc: 'это место где ты можешь выложить свои фото',
+            detailDesc: 'сайт н6а который можно выкладывать свои и зарабатывать лайки',
+            imgUrl: 'images/mesto.jpg',
             githubUrl: 'https://github.com/Fgfgdgfhhfgf/mesto',
             liveLink: 'https://mesto-green.vercel.app/'
         },
         {
             id: 4,
-            title: 'Проект 4',
-            shortDesc: 'Краткое описание проекта 4',
-            detailDesc: 'Подробное описание проекта 4, раскрывающее детали работы и использованные технологии',
-            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3vlT5dDAjGcfFMvv4WTu5P-go2UphNmvbQ&s',
+            title: 'rundom-number',
+            shortDesc: 'вписывай любое число и надейся на свою удачу!',
+            detailDesc: 'в этой игре надо угодать и написать число, которое выбераешь не ты, а компьютер и ты не знаешь его ',
+            imgUrl: 'images/rundom.jpg',
             githubUrl: 'https://github.com/Fgfgdgfhhfgf/guess-number',
             liveLink: 'https://guess-number-roan-six.vercel.app/'
         },
-        {
-            id: 5,
-            title: 'Проект 5',
-            shortDesc: 'Краткое описание проекта 5',
-            detailDesc: 'Подробное описание проекта 5, раскрывающее детали работы и использованные технологии',
-            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3vlT5dDAjGcfFMvv4WTu5P-go2UphNmvbQ&s',
-            githubUrl: 'url5',
-            liveLink: 'url5'
-
-        },
-        {
-            id: 6,
-            title: 'Проект 6',
-            shortDesc: 'Краткое описание проекта 6',
-            detailDesc: 'Подробное описание проекта 6, раскрывающее детали работы и использованные технологии',
-            imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi3vlT5dDAjGcfFMvv4WTu5P-go2UphNmvbQ&s',
-            githubUrl: 'url6',
-            liveLink: 'url6'
-        }
     ];
     const portfolioConteiner = document.querySelector(".portfolio-container")
     function createCard(project) {
